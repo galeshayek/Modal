@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <script src="./js/modal.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="trigger-container">
+        <button id="trigger-button">Open Modal</button>
+    </div>
+    <div id="modal-container">
+        <div id="modal-content">
+            <img src="./assets/warning.webp" alt="warning icon">
+            <div class="text">
+                <h1>Deactive account</h1>
+                <p>Are you sure you want to deactivate your account? All of your data will be permanently removed from
+                    our servers forever. This action cannot be undone.</p>
+            </div>
+            <div class="cta">
+                <button id="cancel">Cancel</button>
+                <button id="deactivate">Deactivate</button>
+            </div>
+        </div>
+        <div class="confirm" id="confirm-box">
+            <div class="btn-wrapper">
+                <button id="cancel-deactivate">Cancel</button>
+                <button id="confirm-deactivate">confirm</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
