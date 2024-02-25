@@ -31,7 +31,7 @@ body {
 
     button {
         cursor: pointer;
-        font-size: clamp(1rem, 1.5vw, 5rem);
+        font-size: clamp(0.8rem, 1.5vw, 5rem);
         width: clamp(5.5rem, 11vw, 20rem);
         aspect-ratio: 3/1;
         border-radius: 12px;
@@ -110,6 +110,9 @@ body {
             align-items: center;
             gap: 1rem;
 
+            @media(max-width:576px) {
+                justify-content: center;
+            }
 
             #cancel {
                 background-color: #00000000;
