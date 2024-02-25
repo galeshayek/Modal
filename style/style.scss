@@ -126,12 +126,12 @@ body {
 
                 }
 
-                // @media (max-width: 576px) {
-                //     &:hover {
-                //         animation: shake 300ms linear;
+                @media (max-width: 576px) {
+                    &:hover {
+                        animation: shake 300ms linear;
 
-                //     }
-                // }
+                    }
+                }
             }
         }
     }

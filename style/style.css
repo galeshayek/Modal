@@ -108,6 +108,11 @@ body button {
 #modal-container #modal-content .cta #deactivate:active {
   animation: shake 300ms linear;
 }
+@media (max-width: 576px) {
+  #modal-container #modal-content .cta #deactivate:hover {
+    animation: shake 300ms linear;
+  }
+}
 #modal-container .confirm {
   position: fixed;
   z-index: 101;
