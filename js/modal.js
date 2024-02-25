@@ -42,3 +42,4 @@ confirmDeactivate.addEventListener('click', () => {
     confirmBox.style.display = 'none'
     modalContainer.style.display = 'none'
 });
+
