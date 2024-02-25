@@ -31,8 +31,8 @@ body {
 
     button {
         cursor: pointer;
-        font-size: clamp(0.4rem, 1.5vw, 5rem);
-        width: clamp(4rem, 11vw, 10rem);
+        font-size: clamp(1rem, 1.5vw, 5rem);
+        width: clamp(5.5rem, 11vw, 20rem);
         aspect-ratio: 3/1;
         border-radius: 12px;
         padding: 3px;
@@ -65,7 +65,7 @@ body {
     background-color: #1e1e1e55;
 
     #modal-content {
-        width: 60vw;
+        width: clamp(300px, 60vw, 1000px);
         aspect-ratio: 10/4;
         background-color: #fff;
         border-radius: 10px;
@@ -142,7 +142,7 @@ body {
         display: none;
         justify-content: center;
         align-items: center;
-        width: 60vw;
+        width: clamp(300px, 60vw, 1000px);
         aspect-ratio: 10/4;
         border-radius: 10px;
         border: 2px solid #d1d1d1;
@@ -154,10 +154,11 @@ body {
             align-items: center;
             gap: 1rem;
             background-color: #fff;
-            width: 35vw;
+            width: clamp(210px, 35vw, 500px);
             aspect-ratio: 10/4;
             border-radius: 10px;
             border: 2px solid #d1d1d1;
+
 
             #cancel-deactivate {
                 background-color: #00000000;
@@ -174,4 +175,4 @@ body {
     }
 }
 
-@media (max-width: 576px) {}
+@import 'mobile';
